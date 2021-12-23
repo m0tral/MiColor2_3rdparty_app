@@ -1,0 +1,23 @@
+<div class="container" on:swipe="touchMove">
+    <div class="areaLeft" on:click="onClickLeft">
+        <image class="btnInfo" src="/res/textures/left.png"></image>
+    </div>
+    <div class="areaRight" on:swipe="touchMove">
+        <div class="caption"></div>
+        <div class="caption">
+            <text class="title">{{ manu }}</text>
+        </div>
+        <div class="captionTitle">
+            <text class="model">{{ model }}</text>
+        </div>
+        <div class="captionIMEI">
+            <text class="title">{{ IMEI }}</text>
+        </div>
+        <div class="caption">
+            <text class="title">steps: {{ steps }}</text>
+        </div>
+        <div class="caption">
+            <text class="title"></text>
+        </div>
+    </div>
+</div>

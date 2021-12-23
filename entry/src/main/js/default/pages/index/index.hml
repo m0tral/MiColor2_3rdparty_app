@@ -1,0 +1,18 @@
+<div class="container" on:swipe="touchMove">
+    <div class="areaLeft">
+        <div class="caption">
+            <text class="model"></text>
+        </div>
+        <div class="header">
+            <text class="title">
+                Hello {{ title }}
+            </text>
+        </div>
+        <div class="controls" on:click="onClickClose">
+            <image class="btnClose" src="/res/textures/button.png"></image>
+        </div>
+    </div>
+    <div class="areaRight" on:click="onClickRight">
+        <image class="btnInfo" src="/res/textures/right.png"></image>
+    </div>
+</div>

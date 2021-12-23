@@ -1,0 +1,49 @@
+.container {
+    width: 466px;
+    height: 466px;
+    align-items: center;
+}
+.areaLeft {
+    flex-direction: column;
+    width: 406px;
+    height: 466px;
+}
+.areaRight {
+    flex-direction: column;
+    width: 60px;
+    height: 466px;
+    justify-content: center;
+}
+.caption {
+    width: 466px;
+    height: 120px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.header {
+    width: 466px;
+    height: 113px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.controls {
+    width: 466px;
+    height: 140px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.title {
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btnClose {
+    width: 110px;
+    height: 110px;
+}
+
+.btnInfo {
+    width: 40px;
+    height: 200px;
+}

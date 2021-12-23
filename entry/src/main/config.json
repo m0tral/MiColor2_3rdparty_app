@@ -1,0 +1,38 @@
+{
+  "app": {
+    "bundleName": "com.example.test",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "deviceType": [
+      "liteWearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "name": "default",
+        "icon": "$media:icon",
+        "label": "$string:entry_MainAbility",
+        "type": "page"
+      }
+    ],
+    "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/info/index"
+        ],
+        "name": "default"
+      }
+    ]
+  }
+}
